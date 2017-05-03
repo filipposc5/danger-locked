@@ -1,0 +1,8 @@
+language: python
+#
+install:
+  - pip install coveralls flake8
+python:
+  - "2.7"
+
+script: ls
